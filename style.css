@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 body {
-    background-color: white;
+    background-color: rgb(216, 250, 239);
 }
 /*header*/
-nav a {
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+nav a{
     font-family: 'Silkscreen', sans-serif;
     font-size: 40px;
-    color: orange;
-    padding: 0.5rem;
+    color: rgb(250, 174, 22);
+    padding: 3rem;
     text-decoration: none;
-    margin: 0 0.5rem;
-   
-
-    ;
 }
 
 article {
@@ -22,30 +23,34 @@ article {
 
 #jina img {
     display: block;
-    width: 500px;
+    width: 700px;
     border-radius: 50%;
     border: 0.15rem;
     margin-left: auto;
     margin-right: auto;
    
 }
-/* Social section*/
-#social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #7be1f6;
-    padding: 1rem;
-}
-
-#social-links div {
-    display: flex;
-    justify-items: space-around;
-   
-    
-}
 /* Footer section */
 footer {
+    background:#7be1f6;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+}
+#social-links {
+    display: flex;
+    justify-content: center;
+}
+
+#social-links a{
+   padding: 0.5rem;
+}
+
+footer p {
+    font-family: 'Silkscreen';
     text-align:center;
-    padding: 1rem;
+    background: #7be1f6;
+    font-size: 10px;
 }
