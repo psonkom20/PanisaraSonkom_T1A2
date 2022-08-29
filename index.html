@@ -8,23 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="masthead">
-        <nav>
-        <h1>
-            <a href="">About Me</a>
-            <a href="">Projects</a>
-            <a href=""> Blogs</a>
-            <a href="">Contact Me</a>
-        </h1>
-        </nav>
-    </header>
-    <section id="jina">
-        <img src="images/animoji2.png" alt="profile image">
-    </section>
-    <article>
-        <h1>Panisara Sonkom<h1>
-        <h2>Status: Aspiring Web Developer</h2>
-    </article>
+    <div id="page-container"></div>
+        <div id="content-wrap"></div>
+            <header id="masthead">
+                
+                <nav id="nav-mobile">
+                    
+                    <input type="checkbox" id="nav-check" class="nav-checkbox">
+                    <label for="nav-check" class="nav-toggle">
+                        <h2 class="Menu">Menu</h2>
+                    </label>
+                    <ul class="nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Me</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href=""> Blogs</a></li>
+                        <li><a href="">Contact Me</a></li>
+                    </ul>
+                </nav>
+            
+                <nav id="nav-desktop">
+                <h1>
+                    <a href="">Home</a>
+                    <a href="">About Me</a>
+                    <a href="">Projects</a>
+                    <a href=""> Blogs</a>
+                    <a href="">Contact Me</a>
+                </h1>
+                </nav>
+            </header>
+            <section id="intro">
+                <h1>Hi I'm Panisara Sonkom</h1>
+            </section>
+            <section id="jina">
+                <img src="images/animoji2.png" alt="profile image">
+            </section>
+            <article>
+                <h2>Status: Aspiring Web Developer</h2>
+            </article>
+        </div>
     <!--Footer-->
     <footer>
     <section id="social-links">
@@ -37,5 +59,6 @@
    
         <p>&copy; 2022 Panisara Sonkom</p>
     </footer>
+    </div>
 </body>
 </html>
