@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
 }
+* {
+    box-sizing: border-box;
+}
 
 /*mobile nav bar*/
 #nav-mobile {
@@ -68,28 +71,81 @@
   #nav-mobile #nav-check:checked ~ label.nav-toggle .menu {
     display: none;
   }
-/*Title*/
-.project-title {
+/*Blog section*/
+.blog-container {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1.5em;  
+    justify-content: center;
+}
+.blog-container .page-title {
+    width: 100vw;
+}
+.blog-link-container {
+    border-radius: 0.2rem;
+    overflow: hidden;
+    background-color: rgb(244, 242, 238);
+    margin: 1.5em;
+    display: flex;
     flex-direction: column;
+    width: 300px;
+}
+.blog-text-container {
+    margin-bottom: 0;
+    margin-top: auto;
+}
+.blog-link-container:hover {
+    transform: scale(1.06)
+}
+.blog-link-container img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.page-title {
+    text-align: center;
     font-family: 'silkscreen', sans-serif;
     color: red;
-    font-size: 70;
+    font-size: clamp(2rem, 6.87vw +0.6rem, 3.5rem);
+    margin: 0.2em 0;
+    padding: 0 0.05em;
+
 }
-.project-main-container p{
-    display: flex;
-    align-items: center;
-    font-family: 'silkscreen', sans-serif;
-    font-size: 20px;
+.small-text {
+    font-family:'silkscreen', sans-serif;
+    font-size: clamp(0.08rem, 0.48vw + 0.8, 1rem);
+    padding: 0 0.5rem;
+    color: black;
+    margin: 0;
+}
+p: last-of-type {
+    padding: 0.5rem;
+}
+a.small-text{
+    display: block;
+    margin-bottom: 0.3rem;
+}
+.sub-title {
+    font-size: clamp(1.5rem, 2.3vw +1rem, 2rem);
+    padding: 0 0.05rem;
+    margin-top: 0.5em;
+    font-family: 'silkscreen';
+    text-align: center;
+    color:rgb(251, 171, 11);
+    text-decoration: none;
+}
+.blog-link-container .small-text {
+    width: fit-content;
 }
 /* Footer section */
 footer {
     background:#7be1f6;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    width: 100%;
     padding: 0.5rem;
+    width: 100%;
     
 }
 #social-links {
