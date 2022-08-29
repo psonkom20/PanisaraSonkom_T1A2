@@ -100,11 +100,13 @@
     align-items:flex-start;
     font-family: 'silkscreen', sans-serif;
     text-decoration: none;
+    color: red;
 }
 /* Footer section */
 footer {
     background:#7be1f6;
     position: relative;
+    bottom: 0;
     padding: 0.5rem;
     width: 100%;
     
@@ -124,7 +126,7 @@ footer p {
     background: #7be1f6;
     font-size: 10px;
 }
-@media screen and (min-width: 1384px) {
+@media screen and (min-width: 1400px) {
     
     #nav-desktop {
         display: flex;
@@ -172,7 +174,7 @@ footer p {
       }
         }
     
-    @media screen and (max-width: 1384px) {
+    @media screen and (max-width: 1400px) {
     #nav-desktop {
         display:none;
     }
