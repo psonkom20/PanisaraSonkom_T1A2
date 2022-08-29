@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Silkscreen', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 article {
     font-family: 'Silkscreen', sans-serif;
@@ -100,14 +100,14 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    height: 550px;
     margin-left: auto;
     margin-right: auto;
 }
 /* Footer section */
 footer {
     background:#7be1f6;
-    position: relative;
+    position: fixed;
     bottom: 0;
     padding: 0.5rem;
     width: 100%;
