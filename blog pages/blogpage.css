@@ -69,7 +69,7 @@
     display: none;
   }
 /*Title*/
-.project-title {
+.blog-title {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,11 +77,18 @@
     color: red;
     font-size: 70;
 }
-.project-main-container p{
+.blog-main-container p{
     display: flex;
     align-items: center;
     font-family: 'silkscreen', sans-serif;
     font-size: 20px;
+}
+.blog-image {
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Footer section */
 footer {
