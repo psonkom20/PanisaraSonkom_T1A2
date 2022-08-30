@@ -86,6 +86,7 @@ body {
     justify-content: center;
     font-family: 'Silkscreen', sans-serif;
     font-size: 20px;
+    
 }
 article {
     font-family: 'Silkscreen', sans-serif;
@@ -103,13 +104,14 @@ article {
     height: 550px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 /* Footer section */
 footer {
     background:#7be1f6;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    padding: 0.5rem;
+    padding: 0.45rem;
     width: 100%;
     
 }
@@ -131,7 +133,7 @@ footer p {
 
 /* Responsive layout*/
 
-@media screen and (min-width: 1384px) {
+@media screen and (min-width: 1050px) {
     
 #nav-desktop {
     display: flex;
@@ -161,6 +163,7 @@ footer p {
     display: inline-block;
     position: relative;
     -webkit-background-clip: text;
+            background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
   }
@@ -179,7 +182,7 @@ footer p {
   }
     }
 
-@media screen and (max-width: 1384px) {
+@media screen and (max-width: 1050px) {
 #nav-desktop {
     display:none;
 }

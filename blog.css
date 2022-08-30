@@ -120,7 +120,7 @@
     color: black;
     margin: 0;
 }
-p: last-of-type {
+p:last-of-type {
     padding: 0.5rem;
 }
 a.small-text{
@@ -134,7 +134,6 @@ a.small-text{
     font-family: 'silkscreen';
     text-align: center;
     color:rgb(251, 171, 11);
-    text-decoration: none;
 }
 .blog-link-container .small-text {
     width: fit-content;
@@ -193,6 +192,7 @@ footer p {
         display: inline-block;
         position: relative;
         -webkit-background-clip: text;
+                background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: all 0.3s ease-in-out;
       }
