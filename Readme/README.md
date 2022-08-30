@@ -1,3 +1,5 @@
+[Portfolio website](https://psonkom20-portfolio.netlify.app)
+[Github repo](https://github.com/psonkom20/PanisaraSonkom_T1A2)
 ## Purpose
 The purpose of this portfolio website is to showcase my current skills as an aspiring web developer.
 
