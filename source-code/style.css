@@ -101,7 +101,8 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 550px;
+    border-radius: 50%;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     
@@ -109,7 +110,7 @@ article {
 /* Footer section */
 footer {
     background:#7be1f6;
-    position: relative;
+    position: fixed;
     bottom: 0;
     padding: 0.45rem;
     width: 100%;
