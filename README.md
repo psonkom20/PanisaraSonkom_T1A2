@@ -24,7 +24,7 @@ Audience can navigate through each pages through the nav bar and access all the 
 <br>
 
 ## Homepage
-![Image of homepage](Resources/docs/homepage.png)
+![Image of homepage](Resources/Docs/homepage.png)
 ## About Me
 ![Image of about me page](Resources/Docs/about-me-page.png)
 ## Project
