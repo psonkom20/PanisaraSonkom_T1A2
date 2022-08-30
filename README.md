@@ -15,7 +15,7 @@ The website features 4 pages and a footer which contains links to my social medi
 <br>
 
 ## Site Map
-[Image of sitemap](Resources/docs/Sitemap.png)
+![Image of sitemap](Resources/docs/Sitemap.png)
 Audience can navigate through each pages through the nav bar and access all the blog posts on the blog page
 
 <br>
