@@ -21,3 +21,28 @@ Audience can navigate through each pages through the nav bar and access all the 
 <br>
 
 ## Screenshots
+<br>
+
+## Homepage
+[Image of homepage](Resources/docs/homepage.png)
+## About Me
+[Image of about me page](Resources/Docs/about-me-page.png)
+## Project
+[Image of project page](Resources/Docs/project-page.png)
+## Blog
+[Image of blog page](Resources/Docs/blog-page.png)
+## Sample blog post
+[Image of blog post](Resources/Docs/blog-post.png)
+## Responsive navbar
+[Image of nav bar](Resources/Docs/navbar-smallscreen.png)
+[Image of nav bar](Resources/Docs/navbar-smallscreen-full.png)
+
+<br>
+
+## Target Audience
+This portfolio is targeted toward prospective employers.
+
+<br>
+
+## Tech Stack
+Made with HTML and CSS. Hosted by Github page.
