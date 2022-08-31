@@ -35,7 +35,7 @@ Audience can navigate through each pages through the nav bar and access all the 
 ## Blog
 ![Image of blog page](../Resources/Docs/blog-page.png)
 ## Sample blog post
-![Image of blog post](Resources/Docs/blog-post.png)
+![Image of blog post](../Resources/Docs/blog-post.png)
 ## Responsive navbar
 ![Image of nav bar](../Resources/Docs/navbar-smallscreen.png)
 ![Image of nav bar](../Resources/Docs/navbar-smallscreen-full.png)
