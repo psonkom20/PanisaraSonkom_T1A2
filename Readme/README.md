@@ -17,7 +17,7 @@ The website features 4 pages and a footer which contains links to my social medi
 <br>
 
 ## Site Map
-![Image of sitemap](Resources/Docs/site-map.png)
+![Image of sitemap](../Resources/Docs/site-map.png)
 
 Audience can navigate through each pages through the nav bar and access all the blog posts on the blog page
 
@@ -27,18 +27,18 @@ Audience can navigate through each pages through the nav bar and access all the 
 <br>
 
 ## Homepage
-![Image of homepage](Resources/Docs/homepage.png)
+![Image of homepage](../Resources/Docs/homepage.png)
 ## About Me
-![Image of about me page](Resources/Docs/about-me-page.png)
+![Image of about me page](../Resources/Docs/about-me-page.png)
 ## Project
-![Image of project page](Resources/Docs/project-page.png)
+![Image of project page](../Resources/Docs/project-page.png)
 ## Blog
-![Image of blog page](Resources/Docs/blog-page.png)
+![Image of blog page](../Resources/Docs/blog-page.png)
 ## Sample blog post
 ![Image of blog post](Resources/Docs/blog-post.png)
 ## Responsive navbar
-![Image of nav bar](Resources/Docs/navbar-smallscreen.png)
-![Image of nav bar](Resources/Docs/navbar-smallscreen-full.png)
+![Image of nav bar](../Resources/Docs/navbar-smallscreen.png)
+![Image of nav bar](../Resources/Docs/navbar-smallscreen-full.png)
 
 <br>
 
@@ -48,4 +48,4 @@ This portfolio is targeted toward prospective employers.
 <br>
 
 ## Tech Stack
-Made with HTML and CSS. Hosted by Github page.
+Made with HTML and CSS. Hosted by Netlify
